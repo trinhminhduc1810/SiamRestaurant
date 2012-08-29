@@ -1,0 +1,16 @@
+<% if notice %>
+  <p id="notice"><%= notice %></p>
+<% end %>
+
+<h1>Siam Restaurant Online<h1>
+
+    <% @foods.each do |food| %>
+      <div class="entry">
+        <%= image_tag(food.image_url) %>
+        <h3><%= food.title %></h3>
+        <div class="description"><%= food.description %></div>
+        <div class="price_line">
+          <span class="price"><%= number_to_currency(food.price) %></span>
+        </div>
+      </div>
+    <% end %>
