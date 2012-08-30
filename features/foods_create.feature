@@ -1,3 +1,4 @@
+@javascript
 Feature: Create New Food
   Restaurant has a new food, owner want to add new food into 
   he/she website for advertising

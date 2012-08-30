@@ -51,4 +51,3 @@ class ApplicationController < ActionController::Base
     infor[:old_password] = infor[:password]
     return infor
   end
-end
