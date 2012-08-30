@@ -1,0 +1,735 @@
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:21:35 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:21:35 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:21:55 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:21:55 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:22:55 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:22:55 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:33:15 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:33:15 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (12.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:33:44 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:33:44 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:39:37 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:39:37 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:39:54 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:39:54 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:40:40 UTC +00:00], ["description", "1_description"], ["image_url", "1_image.jpg"], ["price", #<BigDecimal:7ffa954f6db0,'0.599E1',18(45)>], ["title", "1_title"], ["updated_at", Thu, 30 Aug 2012 07:40:40 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:40:40 UTC +00:00], ["description", "2_description"], ["image_url", "2_image.jpg"], ["price", #<BigDecimal:7ffa968026c0,'0.599E1',18(45)>], ["title", "2_title"], ["updated_at", Thu, 30 Aug 2012 07:40:40 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:40:40 UTC +00:00], ["description", "3_description"], ["image_url", "3_image.jpg"], ["price", #<BigDecimal:7ffa95747f10,'0.599E1',18(45)>], ["title", "3_title"], ["updated_at", Thu, 30 Aug 2012 07:40:40 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (19.1ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:40:40 UTC +00:00], ["description", "4_description"], ["image_url", "4_image.jpg"], ["price", #<BigDecimal:7ffa916e1390,'0.599E1',18(45)>], ["title", "4_title"], ["updated_at", Thu, 30 Aug 2012 07:40:40 UTC +00:00]]
+  [1m[35m (2.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 7ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:40:40 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:40:40 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:42:13 UTC +00:00], ["description", "1_description"], ["image_url", "1_image.jpg"], ["price", #<BigDecimal:7ff8746fb778,'0.599E1',18(45)>], ["title", "1_title"], ["updated_at", Thu, 30 Aug 2012 07:42:13 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:42:13 UTC +00:00], ["description", "2_description"], ["image_url", "2_image.jpg"], ["price", #<BigDecimal:7ff874889298,'0.599E1',18(45)>], ["title", "2_title"], ["updated_at", Thu, 30 Aug 2012 07:42:13 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:42:13 UTC +00:00], ["description", "3_description"], ["image_url", "3_image.jpg"], ["price", #<BigDecimal:7ff8748b2300,'0.599E1',18(45)>], ["title", "3_title"], ["updated_at", Thu, 30 Aug 2012 07:42:13 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (19.1ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:42:13 UTC +00:00], ["description", "4_description"], ["image_url", "4_image.jpg"], ["price", #<BigDecimal:7ff8748d4388,'0.599E1',18(45)>], ["title", "4_title"], ["updated_at", Thu, 30 Aug 2012 07:42:13 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:42:13 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:42:13 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.4ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:44:08 UTC +00:00], ["description", "1_description"], ["image_url", "1_image.jpg"], ["price", #<BigDecimal:7f820814b568,'0.599E1',18(45)>], ["title", "1_title"], ["updated_at", Thu, 30 Aug 2012 07:44:08 UTC +00:00]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:44:08 UTC +00:00], ["description", "2_description"], ["image_url", "2_image.jpg"], ["price", #<BigDecimal:7f8206a9f440,'0.599E1',18(45)>], ["title", "2_title"], ["updated_at", Thu, 30 Aug 2012 07:44:08 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:44:08 UTC +00:00], ["description", "3_description"], ["image_url", "3_image.jpg"], ["price", #<BigDecimal:7f8206988a98,'0.599E1',18(45)>], ["title", "3_title"], ["updated_at", Thu, 30 Aug 2012 07:44:08 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:44:08 UTC +00:00], ["description", "4_description"], ["image_url", "4_image.jpg"], ["price", #<BigDecimal:7f8206c9df58,'0.599E1',18(45)>], ["title", "4_title"], ["updated_at", Thu, 30 Aug 2012 07:44:08 UTC +00:00]]
+  [1m[35m (2.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:44:08 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:44:08 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.9ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:44:25 UTC +00:00], ["description", "1_description"], ["image_url", "1_image.jpg"], ["price", #<BigDecimal:7fb0e45fb710,'0.599E1',18(45)>], ["title", "1_title"], ["updated_at", Thu, 30 Aug 2012 07:44:25 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:44:25 UTC +00:00], ["description", "2_description"], ["image_url", "2_image.jpg"], ["price", #<BigDecimal:7fb0e90027f0,'0.599E1',18(45)>], ["title", "2_title"], ["updated_at", Thu, 30 Aug 2012 07:44:25 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:44:25 UTC +00:00], ["description", "3_description"], ["image_url", "3_image.jpg"], ["price", #<BigDecimal:7fb0e900aa68,'0.599E1',18(45)>], ["title", "3_title"], ["updated_at", Thu, 30 Aug 2012 07:44:25 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (19.1ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:44:25 UTC +00:00], ["description", "4_description"], ["image_url", "4_image.jpg"], ["price", #<BigDecimal:7fb0e9011ef8,'0.599E1',18(45)>], ["title", "4_title"], ["updated_at", Thu, 30 Aug 2012 07:44:25 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:44:25 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:44:25 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.9ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:45:47 UTC +00:00], ["description", "1_description"], ["image_url", "1_image.jpg"], ["price", #<BigDecimal:7fcfa5917888,'0.599E1',18(45)>], ["title", "1_title"], ["updated_at", Thu, 30 Aug 2012 07:45:47 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:45:47 UTC +00:00], ["description", "2_description"], ["image_url", "2_image.jpg"], ["price", #<BigDecimal:7fcfa68a4f58,'0.599E1',18(45)>], ["title", "2_title"], ["updated_at", Thu, 30 Aug 2012 07:45:47 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:45:47 UTC +00:00], ["description", "3_description"], ["image_url", "3_image.jpg"], ["price", #<BigDecimal:7fcfa50ef9d0,'0.599E1',18(45)>], ["title", "3_title"], ["updated_at", Thu, 30 Aug 2012 07:45:47 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:45:47 UTC +00:00], ["description", "4_description"], ["image_url", "4_image.jpg"], ["price", #<BigDecimal:7fcfa5e8e668,'0.599E1',18(45)>], ["title", "4_title"], ["updated_at", Thu, 30 Aug 2012 07:45:47 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:45:47 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:45:47 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 28ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "foods" 
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:49:09 UTC +00:00], ["description", "1_description"], ["image_url", "1_image.jpg"], ["price", #<BigDecimal:7fce36de2a90,'0.599E1',18(45)>], ["title", "1_title"], ["updated_at", Thu, 30 Aug 2012 07:49:09 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:49:09 UTC +00:00], ["description", "2_description"], ["image_url", "2_image.jpg"], ["price", #<BigDecimal:7fce378cc438,'0.599E1',18(45)>], ["title", "2_title"], ["updated_at", Thu, 30 Aug 2012 07:49:09 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:49:09 UTC +00:00], ["description", "3_description"], ["image_url", "3_image.jpg"], ["price", #<BigDecimal:7fce3796b3f8,'0.599E1',18(45)>], ["title", "3_title"], ["updated_at", Thu, 30 Aug 2012 07:49:09 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:49:09 UTC +00:00], ["description", "4_description"], ["image_url", "4_image.jpg"], ["price", #<BigDecimal:7fce37f235e8,'0.599E1',18(45)>], ["title", "4_title"], ["updated_at", Thu, 30 Aug 2012 07:49:09 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "foods" 
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:49:10 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:49:10 UTC +00:00], ["username", "1_username"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:49:33 UTC +00:00], ["description", "1_description"], ["image_url", "1_image.jpg"], ["price", #<BigDecimal:7fecf33e85b8,'0.599E1',18(45)>], ["title", "1_title"], ["updated_at", Thu, 30 Aug 2012 07:49:33 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:49:33 UTC +00:00], ["description", "2_description"], ["image_url", "2_image.jpg"], ["price", #<BigDecimal:7fecf7c08438,'0.599E1',18(45)>], ["title", "2_title"], ["updated_at", Thu, 30 Aug 2012 07:49:33 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:49:33 UTC +00:00], ["description", "3_description"], ["image_url", "3_image.jpg"], ["price", #<BigDecimal:7fecf7dd83d0,'0.599E1',18(45)>], ["title", "3_title"], ["updated_at", Thu, 30 Aug 2012 07:49:33 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "foods" [0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:49:33 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:49:33 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:52:00 UTC +00:00], ["description", "1_description"], ["image_url", "1_image.jpg"], ["price", #<BigDecimal:7f925dde8c98,'0.599E1',18(45)>], ["title", "1_title"], ["updated_at", Thu, 30 Aug 2012 07:52:00 UTC +00:00]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:52:00 UTC +00:00], ["description", "2_description"], ["image_url", "2_image.jpg"], ["price", #<BigDecimal:7f925ec04e80,'0.599E1',18(45)>], ["title", "2_title"], ["updated_at", Thu, 30 Aug 2012 07:52:00 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:52:00 UTC +00:00], ["description", "3_description"], ["image_url", "3_image.jpg"], ["price", #<BigDecimal:7f925e9de340,'0.599E1',18(45)>], ["title", "3_title"], ["updated_at", Thu, 30 Aug 2012 07:52:00 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (1.5ms)[0m  DELETE FROM "foods";
+  [1m[36m (1.5ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'foods';[0m
+  [1m[35m (1.6ms)[0m  DELETE FROM "users";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "foods" [0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.5ms)[0m  [1mDELETE FROM "foods";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'foods';
+  [1m[36m (1.5ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:52:00 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:52:00 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (2.0ms)[0m  [1mDELETE FROM "foods";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'foods';
+  [1m[36m (1.7ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:52:05 UTC +00:00], ["description", "1_description"], ["image_url", "1_image.jpg"], ["price", #<BigDecimal:7ff073dec5b8,'0.599E1',18(45)>], ["title", "1_title"], ["updated_at", Thu, 30 Aug 2012 07:52:05 UTC +00:00]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:52:05 UTC +00:00], ["description", "2_description"], ["image_url", "2_image.jpg"], ["price", #<BigDecimal:7ff0753f76c8,'0.599E1',18(45)>], ["title", "2_title"], ["updated_at", Thu, 30 Aug 2012 07:52:05 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:52:05 UTC +00:00], ["description", "3_description"], ["image_url", "3_image.jpg"], ["price", #<BigDecimal:7ff075072930,'0.599E1',18(45)>], ["title", "3_title"], ["updated_at", Thu, 30 Aug 2012 07:52:05 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (69.6ms)[0m  DELETE FROM "foods";
+  [1m[36m (1.7ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'foods';[0m
+  [1m[35m (1.5ms)[0m  DELETE FROM "users";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "foods" [0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.4ms)[0m  [1mDELETE FROM "foods";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'foods';
+  [1m[36m (1.4ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:52:05 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:52:05 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (1.2ms)[0m  [1mDELETE FROM "foods";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'foods';
+  [1m[36m (2.3ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:52:21 UTC +00:00], ["description", "1_description"], ["image_url", "1_image.jpg"], ["price", #<BigDecimal:7fcfa75dc540,'0.599E1',18(45)>], ["title", "1_title"], ["updated_at", Thu, 30 Aug 2012 07:52:21 UTC +00:00]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:52:21 UTC +00:00], ["description", "2_description"], ["image_url", "2_image.jpg"], ["price", #<BigDecimal:7fcfa8261b58,'0.599E1',18(45)>], ["title", "2_title"], ["updated_at", Thu, 30 Aug 2012 07:52:21 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:52:21 UTC +00:00], ["description", "3_description"], ["image_url", "3_image.jpg"], ["price", #<BigDecimal:7fcfa8489200,'0.599E1',18(45)>], ["title", "3_title"], ["updated_at", Thu, 30 Aug 2012 07:52:21 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "foods";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'foods';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (64.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "foods";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'foods';
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "foods" [0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "foods";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'foods';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM "users";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:52:21 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:52:21 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:52:36 UTC +00:00], ["description", "1_description"], ["image_url", "1_image.jpg"], ["price", #<BigDecimal:7f8926ad5af0,'0.599E1',18(45)>], ["title", "1_title"], ["updated_at", Thu, 30 Aug 2012 07:52:36 UTC +00:00]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:52:36 UTC +00:00], ["description", "2_description"], ["image_url", "2_image.jpg"], ["price", #<BigDecimal:7f8925b4c9d0,'0.599E1',18(45)>], ["title", "2_title"], ["updated_at", Thu, 30 Aug 2012 07:52:36 UTC +00:00]]
+  [1m[35m (1.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:52:36 UTC +00:00], ["description", "3_description"], ["image_url", "3_image.jpg"], ["price", #<BigDecimal:7f8928739250,'0.599E1',18(45)>], ["title", "3_title"], ["updated_at", Thu, 30 Aug 2012 07:52:36 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:52:36 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:52:36 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 28ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "foods" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:52:40 UTC +00:00], ["description", "1_description"], ["image_url", "1_image.jpg"], ["price", #<BigDecimal:7fd78f0c8460,'0.599E1',18(45)>], ["title", "1_title"], ["updated_at", Thu, 30 Aug 2012 07:52:40 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:52:40 UTC +00:00], ["description", "2_description"], ["image_url", "2_image.jpg"], ["price", #<BigDecimal:7fd7902eb570,'0.599E1',18(45)>], ["title", "2_title"], ["updated_at", Thu, 30 Aug 2012 07:52:40 UTC +00:00]]
+  [1m[35m (1.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:52:40 UTC +00:00], ["description", "3_description"], ["image_url", "3_image.jpg"], ["price", #<BigDecimal:7fd78eb889c8,'0.599E1',18(45)>], ["title", "3_title"], ["updated_at", Thu, 30 Aug 2012 07:52:40 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "foods" 
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.7ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:53:04 UTC +00:00], ["description", "1_description"], ["image_url", "1_image.jpg"], ["price", #<BigDecimal:7fbc94d6b2f0,'0.599E1',18(45)>], ["title", "1_title"], ["updated_at", Thu, 30 Aug 2012 07:53:04 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:53:04 UTC +00:00], ["description", "2_description"], ["image_url", "2_image.jpg"], ["price", #<BigDecimal:7fbc94ee7278,'0.599E1',18(45)>], ["title", "2_title"], ["updated_at", Thu, 30 Aug 2012 07:53:04 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:53:04 UTC +00:00], ["description", "3_description"], ["image_url", "3_image.jpg"], ["price", #<BigDecimal:7fbc97093f48,'0.599E1',18(45)>], ["title", "3_title"], ["updated_at", Thu, 30 Aug 2012 07:53:04 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "foods";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'foods';
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "foods";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'foods';
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "foods" [0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "foods";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'foods';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM "users";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:53:04 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:53:04 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  DELETE FROM "foods";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'foods';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM "users";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:54:29 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:54:29 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "foods";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'foods';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM "users";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:54:29 UTC +00:00], ["description", "1_description"], ["image_url", "1_image.jpg"], ["price", #<BigDecimal:7fc0ced47600,'0.599E1',18(45)>], ["title", "1_title"], ["updated_at", Thu, 30 Aug 2012 07:54:29 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:54:29 UTC +00:00], ["description", "2_description"], ["image_url", "2_image.jpg"], ["price", #<BigDecimal:7fc0ceae8788,'0.599E1',18(45)>], ["title", "2_title"], ["updated_at", Thu, 30 Aug 2012 07:54:29 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:54:29 UTC +00:00], ["description", "3_description"], ["image_url", "3_image.jpg"], ["price", #<BigDecimal:7fc0ccfc3ca0,'0.599E1',18(45)>], ["title", "3_title"], ["updated_at", Thu, 30 Aug 2012 07:54:29 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "foods" [0m
+  [1m[35m (0.0ms)[0m  DELETE FROM "foods";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'foods';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM "users";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "foods";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'foods';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM "users";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:54:29 UTC +00:00], ["description", "4_description"], ["image_url", "4_image.jpg"], ["price", #<BigDecimal:7fc0cefd1df8,'0.599E1',18(45)>], ["title", "4_title"], ["updated_at", Thu, 30 Aug 2012 07:54:29 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:54:29 UTC +00:00], ["description", "5_description"], ["image_url", "5_image.jpg"], ["price", #<BigDecimal:7fc0cedd2f20,'0.599E1',18(45)>], ["title", "5_title"], ["updated_at", Thu, 30 Aug 2012 07:54:29 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:54:29 UTC +00:00], ["description", "6_description"], ["image_url", "6_image.jpg"], ["price", #<BigDecimal:7fc0ce90d328,'0.599E1',18(45)>], ["title", "6_title"], ["updated_at", Thu, 30 Aug 2012 07:54:29 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  DELETE FROM "foods";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'foods';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM "users";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.7ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:54:37 UTC +00:00], ["description", "1_description"], ["image_url", "1_image.jpg"], ["price", #<BigDecimal:7ff1ccd42fe0,'0.599E1',18(45)>], ["title", "1_title"], ["updated_at", Thu, 30 Aug 2012 07:54:37 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:54:37 UTC +00:00], ["description", "2_description"], ["image_url", "2_image.jpg"], ["price", #<BigDecimal:7ff1c9451d30,'0.599E1',18(45)>], ["title", "2_title"], ["updated_at", Thu, 30 Aug 2012 07:54:37 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:54:37 UTC +00:00], ["description", "3_description"], ["image_url", "3_image.jpg"], ["price", #<BigDecimal:7ff1cbec1548,'0.599E1',18(45)>], ["title", "3_title"], ["updated_at", Thu, 30 Aug 2012 07:54:37 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "foods";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'foods';
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:54:37 UTC +00:00], ["description", "4_description"], ["image_url", "4_image.jpg"], ["price", #<BigDecimal:7ff1cb972f60,'0.599E1',18(45)>], ["title", "4_title"], ["updated_at", Thu, 30 Aug 2012 07:54:37 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:54:37 UTC +00:00], ["description", "5_description"], ["image_url", "5_image.jpg"], ["price", #<BigDecimal:7ff1ccef8bc8,'0.599E1',18(45)>], ["title", "5_title"], ["updated_at", Thu, 30 Aug 2012 07:54:37 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:54:37 UTC +00:00], ["description", "6_description"], ["image_url", "6_image.jpg"], ["price", #<BigDecimal:7ff1cc9d0560,'0.599E1',18(45)>], ["title", "6_title"], ["updated_at", Thu, 30 Aug 2012 07:54:37 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "foods" 
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM "foods";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'foods';
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "foods";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'foods';
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:54:37 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:54:37 UTC +00:00], ["username", "1_username"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  DELETE FROM "foods";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'foods';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM "users";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "foods";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'foods';[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "users";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00], ["description", "1_description"], ["image_url", "1_image.jpg"], ["price", #<BigDecimal:7ffea6b378b8,'0.599E1',18(45)>], ["title", "1_title"], ["updated_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00], ["description", "2_description"], ["image_url", "2_image.jpg"], ["price", #<BigDecimal:7ffea6b3e460,'0.599E1',18(45)>], ["title", "2_title"], ["updated_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00], ["description", "3_description"], ["image_url", "3_image.jpg"], ["price", #<BigDecimal:7ffea6b45b70,'0.599E1',18(45)>], ["title", "3_title"], ["updated_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "foods" [0m
+  [1m[35m (0.0ms)[0m  DELETE FROM "foods";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'foods';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM "users";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "foods";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'foods';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM "users";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00], ["description", "4_description"], ["image_url", "4_image.jpg"], ["price", #<BigDecimal:7ffea57afc28,'0.599E1',18(45)>], ["title", "4_title"], ["updated_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00], ["description", "5_description"], ["image_url", "5_image.jpg"], ["price", #<BigDecimal:7ffea55211f0,'0.599E1',18(45)>], ["title", "5_title"], ["updated_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00], ["description", "6_description"], ["image_url", "6_image.jpg"], ["price", #<BigDecimal:7ffea562a4c0,'0.599E1',18(45)>], ["title", "6_title"], ["updated_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "foods";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'foods';
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00], ["description", "7_description"], ["image_url", "7_image.jpg"], ["price", #<BigDecimal:7ffea57edc08,'0.599E1',18(45)>], ["title", "7_title"], ["updated_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00], ["description", "8_description"], ["image_url", "8_image.jpg"], ["price", #<BigDecimal:7ffea561a070,'0.599E1',18(45)>], ["title", "8_title"], ["updated_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00], ["description", "9_description"], ["image_url", "9_image.jpg"], ["price", #<BigDecimal:7ffea1ab03b8,'0.599E1',18(45)>], ["title", "9_title"], ["updated_at", Thu, 30 Aug 2012 07:56:26 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  DELETE FROM "foods";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'foods';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM "users";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (3.9ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00], ["description", "1_description"], ["image_url", "1_image.jpg"], ["price", #<BigDecimal:7fb844a93590,'0.599E1',18(45)>], ["title", "1_title"], ["updated_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00], ["description", "2_description"], ["image_url", "2_image.jpg"], ["price", #<BigDecimal:7fb8413e31f8,'0.599E1',18(45)>], ["title", "2_title"], ["updated_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00], ["description", "3_description"], ["image_url", "3_image.jpg"], ["price", #<BigDecimal:7fb8449c6d88,'0.599E1',18(45)>], ["title", "3_title"], ["updated_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM "foods";[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM sqlite_sequence where name = 'foods';
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM "users";[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'users';
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00], ["description", "4_description"], ["image_url", "4_image.jpg"], ["price", #<BigDecimal:7fb846007020,'0.599E1',18(45)>], ["title", "4_title"], ["updated_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00], ["description", "5_description"], ["image_url", "5_image.jpg"], ["price", #<BigDecimal:7fb84600e730,'0.599E1',18(45)>], ["title", "5_title"], ["updated_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00], ["description", "6_description"], ["image_url", "6_image.jpg"], ["price", #<BigDecimal:7fb84601ddc0,'0.599E1',18(45)>], ["title", "6_title"], ["updated_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "foods";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'foods';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM "users";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00], ["description", "7_description"], ["image_url", "7_image.jpg"], ["price", #<BigDecimal:7fb8438a4578,'0.599E1',18(45)>], ["title", "7_title"], ["updated_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00], ["description", "8_description"], ["image_url", "8_image.jpg"], ["price", #<BigDecimal:7fb844c04280,'0.599E1',18(45)>], ["title", "8_title"], ["updated_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00], ["description", "9_description"], ["image_url", "9_image.jpg"], ["price", #<BigDecimal:7fb844cfef50,'0.599E1',18(45)>], ["title", "9_title"], ["updated_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StoreController#index as HTML
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "foods" [0m
+  [1m[35m (0.0ms)[0m  DELETE FROM "foods";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'foods';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM "users";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "foods";
+  [1m[36m (0.1ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'foods';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM "users";
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'users';[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '1_username' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("address", "created_at", "email", "name", "password", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?)  [["address", "1_address"], ["created_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00], ["email", "1_abc@abc.com"], ["name", "1_name"], ["password", "1_password"], ["updated_at", Thu, 30 Aug 2012 07:56:38 UTC +00:00], ["username", "1_username"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction

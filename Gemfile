@@ -22,6 +22,12 @@ end
 
 gem 'jquery-rails'
 
+group :test do
+  gem 'rspec-rails'
+  gem 'factory_girl'
+  gem 'database_cleaner'
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -35,4 +41,7 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'
+
+group :test, :developmemt do
+  gem 'debugger'
+end
