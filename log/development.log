@@ -34739,3 +34739,1297 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 17:09:59 +0700
 Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2012-08-30 17:22:03 +0700
+Processing by StoreController#index as HTML
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 17:22:03 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 17:22:03 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 17:22:03 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 17:22:03 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 17:22:03 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 17:22:03 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 17:22:03 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 17:22:03 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 17:22:03 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 17:22:03 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 17:22:03 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 17:22:04 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/beefsteak.jpg" for 127.0.0.1 at 2012-08-30 17:22:04 +0700
+Served asset /beefsteak.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/seafood_soup.jpg" for 127.0.0.1 at 2012-08-30 17:22:04 +0700
+Served asset /seafood_soup.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chicken_curry.jpg" for 127.0.0.1 at 2012-08-30 17:22:04 +0700
+Served asset /chicken_curry.jpg - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120829035628)
+Migrating to CreateFoods (20120829081550)
+Migrating to CreateCarts (20120830102340)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "carts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120830102340')[0m
+  [1m[35m (1.5ms)[0m  commit transaction
+Migrating to CreateLineItems (20120830102449)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "line_items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "quantity" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120830102449')[0m
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("carts")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("foods")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("line_items")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120829035628)
+Migrating to CreateFoods (20120829081550)
+Migrating to CreateCarts (20120830102340)
+Migrating to CreateLineItems (20120830102449)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("carts")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("foods")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("line_items")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120829035628)
+Migrating to CreateFoods (20120829081550)
+Migrating to CreateCarts (20120830102340)
+Migrating to CreateLineItems (20120830102449)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("carts")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("foods")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("line_items")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120829035628)
+Migrating to CreateFoods (20120829081550)
+Migrating to CreateCarts (20120830102340)
+Migrating to CreateLineItems (20120830102449)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("carts")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("foods")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("line_items")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120829035628)
+Migrating to CreateFoods (20120829081550)
+Migrating to CreateCarts (20120830102340)
+Migrating to CreateLineItems (20120830102449)
+Migrating to RemoveQuantityFromLineItem (20120830103345)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120829035628)
+Migrating to CreateFoods (20120829081550)
+Migrating to CreateCarts (20120830102340)
+Migrating to CreateLineItems (20120830102449)
+Migrating to RemoveQuantityFromLineItem (20120830103345)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TEMPORARY TABLE "altered_line_items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "quantity" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("line_items")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "line_items"
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "line_items"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "line_items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("altered_line_items")[0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "altered_line_items"
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "altered_line_items"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120830103345')
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("carts")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("foods")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("line_items")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120829035628)
+Migrating to CreateFoods (20120829081550)
+Migrating to CreateCarts (20120830102340)
+Migrating to CreateLineItems (20120830102449)
+Migrating to AddQuantityToLineItem (20120830103345)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("carts")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("foods")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("line_items")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120829035628)
+Migrating to CreateFoods (20120829081550)
+Migrating to CreateCarts (20120830102340)
+Migrating to CreateLineItems (20120830102449)
+Migrating to AddQuantityToLineItem (20120830103345)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("carts")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("foods")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("line_items")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120829035628)
+Migrating to CreateFoods (20120829081550)
+Migrating to CreateCarts (20120830102340)
+Migrating to CreateLineItems (20120830102449)
+Migrating to AddQuantityToLineItems (20120830104214)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "line_items" ADD "quantity" integer DEFAULT 1
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120830104214')[0m
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("carts")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("foods")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("line_items")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+
+
+Started GET "/store/index" for 127.0.0.1 at 2012-08-30 17:46:05 +0700
+Processing by StoreController#index as HTML
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (8.0ms)
+Compiled carts.css  (1ms)  (pid 7452)
+Compiled line_items.css  (1ms)  (pid 7452)
+Compiled application.css  (41ms)  (pid 7452)
+Compiled carts.js  (98ms)  (pid 7452)
+Compiled line_items.js  (53ms)  (pid 7452)
+Compiled application.js  (169ms)  (pid 7452)
+Completed 200 OK in 306ms (Views: 300.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 17:46:06 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-08-30 17:46:06 +0700
+Served asset /line_items.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 17:46:06 +0700
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-08-30 17:46:06 +0700
+Served asset /carts.css - 200 OK (1ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 17:46:06 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 17:46:06 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 17:46:06 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-08-30 17:46:06 +0700
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 17:46:06 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 17:46:06 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 17:46:06 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 17:46:06 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 17:46:06 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 17:46:06 +0700
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-08-30 17:46:06 +0700
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 17:46:06 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/beefsteak.jpg" for 127.0.0.1 at 2012-08-30 17:46:06 +0700
+Served asset /beefsteak.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/seafood_soup.jpg" for 127.0.0.1 at 2012-08-30 17:46:06 +0700
+Served asset /seafood_soup.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chicken_curry.jpg" for 127.0.0.1 at 2012-08-30 17:46:06 +0700
+Served asset /chicken_curry.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/foods/" for 127.0.0.1 at 2012-08-30 17:46:09 +0700
+Processing by FoodsController#index as HTML
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" 
+  Rendered foods/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 17:46:09 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-08-30 17:46:09 +0700
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 17:46:09 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 17:46:09 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 17:46:09 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-08-30 17:46:09 +0700
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 17:46:09 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 17:46:09 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 17:46:09 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-08-30 17:46:09 +0700
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 17:46:09 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-08-30 17:46:09 +0700
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 17:46:09 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 17:46:09 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 17:46:09 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 17:46:10 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Processing by StoreController#index as HTML
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chicken_curry.jpg" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Served asset /chicken_curry.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/seafood_soup.jpg" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Served asset /seafood_soup.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/beefsteak.jpg" for 127.0.0.1 at 2012-08-30 17:49:21 +0700
+Served asset /beefsteak.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Processing by StoreController#index as HTML
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/beefsteak.jpg" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Served asset /beefsteak.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chicken_curry.jpg" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Served asset /chicken_curry.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/seafood_soup.jpg" for 127.0.0.1 at 2012-08-30 17:50:55 +0700
+Served asset /seafood_soup.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Processing by StoreController#index as HTML
+  [1m[36mFood Load (0.3ms)[0m  [1mSELECT "foods".* FROM "foods" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chicken_curry.jpg" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Served asset /chicken_curry.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/beefsteak.jpg" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Served asset /beefsteak.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/seafood_soup.jpg" for 127.0.0.1 at 2012-08-30 17:50:56 +0700
+Served asset /seafood_soup.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Processing by StoreController#index as HTML
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (2.6ms)
+Compiled store.css  (7ms)  (pid 7452)
+Compiled application.css  (5ms)  (pid 7452)
+Completed 200 OK in 36ms (Views: 35.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /store.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/beefsteak.jpg" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /beefsteak.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chicken_curry.jpg" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /chicken_curry.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/seafood_soup.jpg" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /seafood_soup.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Processing by StoreController#index as HTML
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 17:51:38 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 17:51:39 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/beefsteak.jpg" for 127.0.0.1 at 2012-08-30 17:51:39 +0700
+Served asset /beefsteak.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chicken_curry.jpg" for 127.0.0.1 at 2012-08-30 17:51:39 +0700
+Served asset /chicken_curry.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/seafood_soup.jpg" for 127.0.0.1 at 2012-08-30 17:51:39 +0700
+Served asset /seafood_soup.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Processing by StoreController#index as HTML
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (2.3ms)
+Compiled store.css  (6ms)  (pid 7452)
+Compiled application.css  (17ms)  (pid 7452)
+Completed 200 OK in 46ms (Views: 45.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Served asset /store.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/beefsteak.jpg" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Served asset /beefsteak.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/seafood_soup.jpg" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Served asset /seafood_soup.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chicken_curry.jpg" for 127.0.0.1 at 2012-08-30 17:52:05 +0700
+Served asset /chicken_curry.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Processing by StoreController#index as HTML
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (2.3ms)
+Compiled store.css  (6ms)  (pid 7452)
+Compiled application.css  (5ms)  (pid 7452)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Served asset /store.css - 200 OK (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/beefsteak.jpg" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Served asset /beefsteak.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/seafood_soup.jpg" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Served asset /seafood_soup.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chicken_curry.jpg" for 127.0.0.1 at 2012-08-30 17:52:18 +0700
+Served asset /chicken_curry.jpg - 304 Not Modified (0ms)
+
+
+Started POST "/line_items?food_id=2" for 127.0.0.1 at 2012-08-30 17:52:29 +0700
+Processing by LineItemsController#create as HTML
+  Parameters: {"authenticity_token"=>"GVkjcQ8nwYYblNoMBoUrHM3XjfPhLCcL8DQZgiBQaM4=", "food_id"=>"2"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "line_items" ("created_at", "quantity", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 10:52:29 UTC +00:00], ["quantity", 1], ["updated_at", Thu, 30 Aug 2012 10:52:29 UTC +00:00]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/line_items/1
+Completed 302 Found in 10ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/line_items/1" for 127.0.0.1 at 2012-08-30 17:52:29 +0700
+Processing by LineItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLineItem Load (0.2ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered line_items/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:29 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:29 +0700
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:29 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:29 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:29 +0700
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:29 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:29 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:29 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:29 +0700
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:29 +0700
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:29 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:29 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:29 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:29 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:29 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 17:52:29 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/line_items" for 127.0.0.1 at 2012-08-30 17:52:34 +0700
+Processing by LineItemsController#index as HTML
+  [1m[35mLineItem Load (0.1ms)[0m  SELECT "line_items".* FROM "line_items" 
+  Rendered line_items/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:34 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:34 +0700
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:34 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:34 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:34 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:34 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:34 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:34 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:34 +0700
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:34 +0700
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:34 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:34 +0700
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:34 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:34 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:34 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 17:52:34 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started DELETE "/line_items/1" for 127.0.0.1 at 2012-08-30 17:52:38 +0700
+Processing by LineItemsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"GVkjcQ8nwYYblNoMBoUrHM3XjfPhLCcL8DQZgiBQaM4=", "id"=>"1"}
+  [1m[36mLineItem Load (0.1ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "line_items" WHERE "line_items"."id" = ?[0m  [["id", 1]]
+  [1m[35m (1.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/line_items
+Completed 302 Found in 4ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/line_items" for 127.0.0.1 at 2012-08-30 17:52:38 +0700
+Processing by LineItemsController#index as HTML
+  [1m[36mLineItem Load (0.2ms)[0m  [1mSELECT "line_items".* FROM "line_items" [0m
+  Rendered line_items/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:38 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:38 +0700
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:38 +0700
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:38 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:38 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:38 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:38 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:38 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:38 +0700
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:38 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:38 +0700
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:38 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:38 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:38 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:38 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 17:52:38 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Processing by StoreController#index as HTML
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chicken_curry.jpg" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Served asset /chicken_curry.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/beefsteak.jpg" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Served asset /beefsteak.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/seafood_soup.jpg" for 127.0.0.1 at 2012-08-30 17:52:41 +0700
+Served asset /seafood_soup.jpg - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120829035628)
+Migrating to CreateFoods (20120829081550)
+Migrating to CreateCarts (20120830102340)
+Migrating to CreateLineItems (20120830102449)
+Migrating to AddQuantityToLineItems (20120830104214)
+Migrating to CombineLineItemsInCart (20120830105737)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mCart Load (0.1ms)[0m  SELECT "carts".* FROM "carts" 
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120830105737')[0m
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("carts")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("foods")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("line_items")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
