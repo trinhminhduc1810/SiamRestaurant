@@ -33172,3 +33172,1570 @@ Connecting to database specified by database.yml
   [1m[35m (2.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20120829081550')
   [1m[36m (2.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20120829035628')[0m
 Connecting to database specified by database.yml
+
+
+Started GET "/foods/" for 127.0.0.1 at 2012-08-30 15:21:17 +0700
+Connecting to database specified by database.yml
+Processing by FoodsController#index as HTML
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" [0m
+  Rendered foods/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 89ms (Views: 52.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 15:21:17 +0700
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 15:21:17 +0700
+Served asset /foods.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 15:21:17 +0700
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 15:21:17 +0700
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 15:21:17 +0700
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 15:21:17 +0700
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 15:21:17 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 15:21:17 +0700
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 15:21:17 +0700
+Served asset /foods.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 15:21:17 +0700
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 15:21:17 +0700
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 15:21:17 +0700
+Served asset /logo.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/foods/1" for 127.0.0.1 at 2012-08-30 15:21:21 +0700
+Processing by FoodsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered foods/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 15:21:21 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 15:21:21 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 15:21:21 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 15:21:21 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 15:21:21 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 15:21:21 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 15:21:21 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 15:21:21 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 15:21:21 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 15:21:21 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 15:21:21 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 15:21:21 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/foods/1" for 127.0.0.1 at 2012-08-30 15:28:47 +0700
+Processing by FoodsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered foods/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:47 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:47 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:47 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:47 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:47 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:47 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:47 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:47 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:47 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:47 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:47 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 15:28:47 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/foods" for 127.0.0.1 at 2012-08-30 15:28:50 +0700
+Processing by FoodsController#index as HTML
+  [1m[35mFood Load (0.1ms)[0m  SELECT "foods".* FROM "foods" 
+  Rendered foods/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:50 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:50 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:50 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:50 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:50 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:50 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:50 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:50 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:50 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:50 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:50 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 15:28:50 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/foods/1/edit" for 127.0.0.1 at 2012-08-30 15:28:52 +0700
+Processing by FoodsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered foods/_form.html.erb (5.7ms)
+  Rendered foods/edit.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:52 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:52 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:52 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:52 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:52 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:52 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:52 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:52 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:52 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:52 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:52 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 15:28:52 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/foods" for 127.0.0.1 at 2012-08-30 15:28:54 +0700
+Processing by FoodsController#index as HTML
+  [1m[35mFood Load (0.1ms)[0m  SELECT "foods".* FROM "foods" 
+  Rendered foods/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:54 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:54 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:54 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:54 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 15:28:54 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:54 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:54 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:54 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:54 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:54 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 15:28:54 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 15:28:54 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/foods/news" for 127.0.0.1 at 2012-08-30 15:41:28 +0700
+Processing by FoodsController#show as HTML
+  Parameters: {"id"=>"news"}
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT 1[0m  [["id", "news"]]
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Food with id=news):
+  app/controllers/foods_controller.rb:16:in `show'
+
+
+  Rendered /Users/eastagile/.rvm/gems/ruby-1.9.3-p194@restaurant/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/eastagile/.rvm/gems/ruby-1.9.3-p194@restaurant/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/eastagile/.rvm/gems/ruby-1.9.3-p194@restaurant/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started GET "/foods" for 127.0.0.1 at 2012-08-30 15:41:40 +0700
+Processing by FoodsController#index as HTML
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" 
+  Rendered foods/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 15:41:40 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 15:41:40 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 15:41:40 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 15:41:40 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 15:41:40 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 15:41:40 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 15:41:40 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 15:41:40 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 15:41:40 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 15:41:40 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 15:41:40 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 15:41:40 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/foods/new" for 127.0.0.1 at 2012-08-30 15:41:46 +0700
+Processing by FoodsController#new as HTML
+  Rendered foods/_form.html.erb (2.4ms)
+  Rendered foods/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 15:41:46 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 15:41:46 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 15:41:46 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 15:41:46 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 15:41:46 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 15:41:46 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 15:41:46 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 15:41:46 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 15:41:46 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 15:41:46 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 15:41:46 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 15:41:46 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started POST "/foods" for 127.0.0.1 at 2012-08-30 15:41:47 +0700
+Processing by FoodsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GVkjcQ8nwYYblNoMBoUrHM3XjfPhLCcL8DQZgiBQaM4=", "food"=>{"title"=>"", "description"=>"", "price"=>"", "image_url"=>""}, "commit"=>"Create Food"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  Rendered foods/_form.html.erb (4.4ms)
+  Rendered foods/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 14ms (Views: 10.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 15:41:47 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 15:41:47 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 15:41:47 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 15:41:47 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 15:41:47 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 15:41:47 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 15:41:47 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 15:41:47 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 15:41:47 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 15:41:47 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 15:41:47 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 15:41:47 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/store/index" for 127.0.0.1 at 2012-08-30 16:12:16 +0700
+Processing by StoreController#index as HTML
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 16:12:16 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 16:12:16 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 16:12:16 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 16:12:16 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 16:12:16 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 16:12:16 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 16:12:16 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 16:12:16 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 16:12:16 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 16:12:16 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 16:12:16 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 16:12:16 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/beefsteak.jpg" for 127.0.0.1 at 2012-08-30 16:12:16 +0700
+Served asset /beefsteak.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/chicken_curry.jpg" for 127.0.0.1 at 2012-08-30 16:12:16 +0700
+Served asset /chicken_curry.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/seafood_soup.jpg" for 127.0.0.1 at 2012-08-30 16:12:16 +0700
+Served asset /seafood_soup.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/foods/" for 127.0.0.1 at 2012-08-30 16:12:21 +0700
+Processing by FoodsController#index as HTML
+  [1m[35mFood Load (0.1ms)[0m  SELECT "foods".* FROM "foods" 
+  Rendered foods/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 16:12:21 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 16:12:21 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 16:12:21 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 16:12:21 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 16:12:21 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 16:12:21 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 16:12:21 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 16:12:21 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 16:12:21 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 16:12:21 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 16:12:21 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 16:12:21 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/foods/new" for 127.0.0.1 at 2012-08-30 16:14:30 +0700
+Processing by FoodsController#new as HTML
+  Rendered foods/_form.html.erb (2.2ms)
+  Rendered foods/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 16:14:30 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 16:14:30 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 16:14:30 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 16:14:30 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 16:14:30 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 16:14:30 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 16:14:30 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 16:14:30 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 16:14:30 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 16:14:30 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 16:14:30 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 16:14:30 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/foods/new" for 127.0.0.1 at 2012-08-30 16:22:16 +0700
+Processing by FoodsController#new as HTML
+  Rendered foods/_form.html.erb (2.1ms)
+  Rendered foods/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 16:22:16 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 16:22:16 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 16:22:16 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 16:22:16 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 16:22:16 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 16:22:16 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 16:22:16 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 16:22:16 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 16:22:16 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 16:22:16 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 16:22:16 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 16:22:16 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/foods" for 127.0.0.1 at 2012-08-30 16:24:47 +0700
+Processing by FoodsController#index as HTML
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" [0m
+  Rendered foods/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 16:24:47 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 16:24:47 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 16:24:47 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 16:24:47 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 16:24:47 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 16:24:47 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 16:24:47 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 16:24:47 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 16:24:47 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 16:24:47 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 16:24:47 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 16:24:47 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/foods/new" for 127.0.0.1 at 2012-08-30 16:25:41 +0700
+Processing by FoodsController#new as HTML
+  Rendered foods/_form.html.erb (1.9ms)
+  Rendered foods/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 16:25:41 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 16:25:41 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 16:25:41 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 16:25:41 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 16:25:41 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 16:25:41 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 16:25:41 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 16:25:41 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 16:25:41 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 16:25:41 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 16:25:41 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 16:25:42 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started POST "/foods" for 127.0.0.1 at 2012-08-30 16:32:26 +0700
+Processing by FoodsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GVkjcQ8nwYYblNoMBoUrHM3XjfPhLCcL8DQZgiBQaM4=", "food"=>{"title"=>"adadada", "description"=>"fsdfdfsd", "price"=>"45", "image_url"=>"rg.jpg"}, "commit"=>"Create Food"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (3.9ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 09:32:26 UTC +00:00], ["description", "fsdfdfsd"], ["image_url", "rg.jpg"], ["price", #<BigDecimal:7ffeefc6ab60,'0.45E2',9(18)>], ["title", "adadada"], ["updated_at", Thu, 30 Aug 2012 09:32:26 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/foods/4
+Completed 302 Found in 9ms (ActiveRecord: 5.3ms)
+
+
+Started GET "/foods/4" for 127.0.0.1 at 2012-08-30 16:32:26 +0700
+Processing by FoodsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  Rendered foods/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 16:32:26 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 16:32:26 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 16:32:26 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 16:32:26 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 16:32:26 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 16:32:26 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 16:32:26 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 16:32:26 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 16:32:26 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 16:32:26 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 16:32:26 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 16:32:26 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/foods" for 127.0.0.1 at 2012-08-30 16:36:14 +0700
+Processing by FoodsController#index as HTML
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" 
+  Rendered foods/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 16:36:14 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 16:36:14 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 16:36:14 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 16:36:14 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 16:36:14 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 16:36:14 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 16:36:14 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 16:36:14 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 16:36:14 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 16:36:14 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 16:36:14 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 16:36:14 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started DELETE "/foods/4" for 127.0.0.1 at 2012-08-30 16:36:16 +0700
+Processing by FoodsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"GVkjcQ8nwYYblNoMBoUrHM3XjfPhLCcL8DQZgiBQaM4=", "id"=>"4"}
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "foods" WHERE "foods"."id" = ?[0m  [["id", 4]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/foods
+Completed 302 Found in 4ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/foods" for 127.0.0.1 at 2012-08-30 16:36:16 +0700
+Processing by FoodsController#index as HTML
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" [0m
+  Rendered foods/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 16:36:16 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 16:36:16 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 16:36:16 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 16:36:16 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 16:36:16 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 16:36:16 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 16:36:16 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 16:36:16 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 16:36:16 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 16:36:16 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 16:36:16 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 16:36:17 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/foods/new" for 127.0.0.1 at 2012-08-30 16:36:18 +0700
+Processing by FoodsController#new as HTML
+  Rendered foods/_form.html.erb (2.3ms)
+  Rendered foods/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 16:36:18 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 16:36:18 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 16:36:18 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 16:36:18 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 16:36:18 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 16:36:18 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 16:36:18 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 16:36:18 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 16:36:18 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 16:36:18 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 16:36:18 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 16:36:18 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/foods" for 127.0.0.1 at 2012-08-30 16:56:58 +0700
+Processing by FoodsController#index as HTML
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" 
+  Rendered foods/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 16:56:58 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 16:56:58 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 16:56:58 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 16:56:58 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 16:56:58 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 16:56:58 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 16:56:58 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 16:56:58 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 16:56:58 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 16:56:58 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 16:56:58 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 16:56:58 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/foods" for 127.0.0.1 at 2012-08-30 16:57:00 +0700
+Processing by FoodsController#index as HTML
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" [0m
+  Rendered foods/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 16:57:00 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 16:57:00 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 16:57:00 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 16:57:00 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 16:57:00 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 16:57:00 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 16:57:00 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 16:57:00 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 16:57:00 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 16:57:00 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 16:57:00 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 16:57:00 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/foods/new" for 127.0.0.1 at 2012-08-30 16:57:20 +0700
+Processing by FoodsController#new as HTML
+  Rendered foods/_form.html.erb (2.0ms)
+  Rendered foods/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 16:57:20 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 16:57:20 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 16:57:20 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 16:57:20 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 16:57:20 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 16:57:20 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 16:57:20 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 16:57:20 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 16:57:20 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 16:57:20 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 16:57:20 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 16:57:20 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started POST "/foods" for 127.0.0.1 at 2012-08-30 16:57:28 +0700
+Processing by FoodsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GVkjcQ8nwYYblNoMBoUrHM3XjfPhLCcL8DQZgiBQaM4=", "food"=>{"title"=>"gdsffgds", "description"=>"ggsgfs", "price"=>"12", "image_url"=>"hutf.jpg"}, "commit"=>"Create Food"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "foods" ("created_at", "description", "image_url", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 30 Aug 2012 09:57:28 UTC +00:00], ["description", "ggsgfs"], ["image_url", "hutf.jpg"], ["price", #<BigDecimal:7ffeecbf7a78,'0.12E2',9(18)>], ["title", "gdsffgds"], ["updated_at", Thu, 30 Aug 2012 09:57:28 UTC +00:00]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/foods/5
+Completed 302 Found in 4ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/foods/5" for 127.0.0.1 at 2012-08-30 16:57:28 +0700
+Processing by FoodsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  Rendered foods/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 16:57:28 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 16:57:28 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 16:57:28 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 16:57:28 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 16:57:28 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 16:57:28 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 16:57:28 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 16:57:28 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 16:57:28 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 16:57:28 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 16:57:28 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 16:57:28 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/foods" for 127.0.0.1 at 2012-08-30 17:09:45 +0700
+Processing by FoodsController#index as HTML
+  [1m[35mFood Load (0.2ms)[0m  SELECT "foods".* FROM "foods" 
+  Rendered foods/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:45 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:45 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:45 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:45 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:45 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:45 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:45 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:45 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:45 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:45 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:45 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 17:09:45 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started DELETE "/foods/5" for 127.0.0.1 at 2012-08-30 17:09:50 +0700
+Processing by FoodsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"GVkjcQ8nwYYblNoMBoUrHM3XjfPhLCcL8DQZgiBQaM4=", "id"=>"5"}
+  [1m[36mFood Load (0.1ms)[0m  [1mSELECT "foods".* FROM "foods" WHERE "foods"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "foods" WHERE "foods"."id" = ?[0m  [["id", 5]]
+  [1m[35m (1.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/foods
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/foods" for 127.0.0.1 at 2012-08-30 17:09:50 +0700
+Processing by FoodsController#index as HTML
+  [1m[36mFood Load (0.2ms)[0m  [1mSELECT "foods".* FROM "foods" [0m
+  Rendered foods/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:50 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:50 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:50 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:50 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:50 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:50 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:50 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:50 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:50 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:50 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:50 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 17:09:50 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/foods/new" for 127.0.0.1 at 2012-08-30 17:09:58 +0700
+Processing by FoodsController#new as HTML
+  Rendered foods/_form.html.erb (12.8ms)
+  Rendered foods/new.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:58 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:58 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:58 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:58 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:58 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:58 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:58 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:58 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:58 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:58 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:58 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 17:09:58 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)
+
+
+Started POST "/foods" for 127.0.0.1 at 2012-08-30 17:09:59 +0700
+Processing by FoodsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GVkjcQ8nwYYblNoMBoUrHM3XjfPhLCcL8DQZgiBQaM4=", "food"=>{"title"=>"", "description"=>"", "price"=>"", "image_url"=>""}, "commit"=>"Create Food"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered foods/_form.html.erb (4.2ms)
+  Rendered foods/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:59 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:59 +0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:59 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:59 +0700
+Served asset /foods.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2012-08-30 17:09:59 +0700
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:59 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foods.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:59 +0700
+Served asset /foods.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:59 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:59 +0700
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:59 +0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-30 17:09:59 +0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.jpg" for 127.0.0.1 at 2012-08-30 17:09:59 +0700
+Served asset /logo.jpg - 304 Not Modified (0ms)

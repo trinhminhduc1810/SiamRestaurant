@@ -26,6 +26,7 @@ group :test do
   gem 'rspec-rails'
   gem 'factory_girl'
   gem 'database_cleaner'
+  gem 'cucumber-rails'
 end
 
 # To use ActiveModel has_secure_password
