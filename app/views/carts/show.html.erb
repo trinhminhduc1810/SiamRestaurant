@@ -1,19 +1,4 @@
 <% if notice %>
 <p id="notice"><%= notice %></p>
 <% end %>
-<div class="cart_infor">
-  <h2>Your Cart</h2>
-<table>
-    <% @cart.line_items.each do |line_item| %>
-        <tr>
-          <td class="quantity_line"><%= line_item.quantity %> x </td>
-          <td class="title_line"><%= line_item.food.title %> </td>
-          <td class="total_price_each_item"><%= number_to_currency(line_item.total_price) %></td>
-        </tr>
-    <% end %>
-        <tr>
-          <td class ="total_cart_cell" colspan="2" align="right">Total</td>
-          <td class ="total_cart_line"><%= number_to_currency(@cart.total_price)%></td>
-        <tr>
-</table>
- </div>
+<%= render @cart %>

@@ -11,7 +11,7 @@
         <div class="description"><%= food.description %></div>
         <div class="price_line">
           <span class="price"><%= number_to_currency(food.price) %></span>
-          <div class="button_add_cart"><%= button_to 'Add To Cart', line_items_path(food_id: food) %></div>
+          <div class="button_add_cart"><%= button_to 'Add To Cart', line_items_path(food_id: food), remote: true %></div>
         </div>
       </div>
     <% end %>
