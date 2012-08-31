@@ -1,3 +1,23 @@
 // Place all the styles related to the carts controller here.
 // They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+// You can use Sass (SCSS) here: http://sass-lang.com
+
+.cart_infor {
+  border: 2px solid;
+  width: 230px;
+  padding-left:15px;
+  padding-right:15px;
+  h2 {
+    font-size:15px;
+  }
+  .quantity_line {
+    float: left;
+    margin-right:4px;
+  }
+  .title_line {
+    width:140px;
+  }
+  .total_cart_line {
+    border-top: 2px solid;
+  }
+}
